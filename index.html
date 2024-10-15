@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votation Chapitre Provincial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Votation pour le Chapitre Provincial</h1>
+        <p>Veuillez voter pour chaque paragraphe du document.</p>
+    </header>
+    
+    <section id="document">
+        <article class="paragraph">
+            <h2>Paragraphe 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+            <div class="vote">
+                <label>
+                    <input type="radio" name="vote1" value="Pour"> Pour
+                </label>
+                <label>
+                    <input type="radio" name="vote1" value="Contre"> Contre
+                </label>
+                <label>
+                    <input type="radio" name="vote1" value="Abstention"> Abstention
+                </label>
+            </div>
+        </article>
+
+        <article class="paragraph">
+            <h2>Paragraphe 2</h2>
+            <p>Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris.</p>
+            <div class="vote">
+                <label>
+                    <input type="radio" name="vote2" value="Pour"> Pour
+                </label>
+                <label>
+                    <input type="radio" name="vote2" value="Contre"> Contre
+                </label>
+                <label>
+                    <input type="radio" name="vote2" value="Abstention"> Abstention
+                </label>
+            </div>
+        </article>
+
+        <!-- Ajouter plus de paragraphes ici si nécessaire -->
+
+    </section>
+
+    <button onclick="submitVotes()">Soumettre vos votes</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
